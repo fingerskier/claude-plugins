@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fingerskier-plugins",
+  "description": "Claude Code plugins by Fingerskier",
+  "owner": {
+    "name": "Fingerskier"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Fingerskier"
+  },
+  "plugins": [
+    {
+      "name": "dude-claude-plugin",
+      "description": "Ultra-minimal RAG and cross-project memory for Claude Code. Persistent issues and specs with semantic vector search, auto-retrieve hooks, and auto-persist hooks.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/dude-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/dude-claude-plugin"
+    }
+  ]
+}
