@@ -10,6 +10,16 @@
   },
   "plugins": [
     {
+      "name": "dex-claude-plugin",
+      "description": "Scheduler plugin for Claude Code.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/dex-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/dex-claude-plugin"
+    },
+    {
       "name": "dude-claude-plugin",
       "description": "Ultra-minimal RAG and cross-project memory for Claude Code. Persistent issues and specs with semantic vector search, auto-retrieve hooks, and auto-persist hooks.",
       "category": "productivity",
