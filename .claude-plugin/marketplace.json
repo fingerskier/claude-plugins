@@ -20,7 +20,7 @@
       "homepage": "https://github.com/fingerskier/dex-claude-plugin"
     },
     {
-      "name": "dude-claude-plugin",
+      "name": "dude",
       "description": "Ultra-minimal RAG and cross-project memory for Claude Code. Persistent issues and specs with semantic vector search, auto-retrieve hooks, and auto-persist hooks.",
       "category": "productivity",
       "source": {

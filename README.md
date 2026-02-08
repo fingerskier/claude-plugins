@@ -12,14 +12,14 @@ claude plugin marketplace add fingerskier/claude-plugins
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
-| [dude-claude-plugin](https://github.com/fingerskier/dude-claude-plugin) | RAG and cross-project memory with auto-retrieve/persist hooks | `claude plugin install dude-claude-plugin@fingerskier-plugins` |
+| [dude](https://github.com/fingerskier/dude-claude-plugin) | RAG and cross-project memory with auto-retrieve/persist hooks | `claude plugin install dude@fingerskier-plugins` |
 
 ## Install a plugin
 
 After adding the marketplace:
 
 ```bash
-claude plugin install dude-claude-plugin@fingerskier-plugins
+claude plugin install dude@fingerskier-plugins
 ```
 
 ## Update
