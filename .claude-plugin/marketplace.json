@@ -38,6 +38,16 @@
         "url": "https://github.com/fingerskier/micropython-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/micropython-claude-plugin"
+    },
+    {
+      "name": "fleet",
+      "description": "AWS services monitor for Claude Code. Monitor and interact with EC2, S3, Lambda, ECS, CloudWatch, and CloudFormation from your Claude session.",
+      "category": "cloud",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/fleet-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/fleet-claude-plugin"
     }
   ]
 }
