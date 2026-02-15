@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "dex-claude-plugin",
+      "name": "dex",
       "description": "Scheduler plugin for Claude Code.",
       "category": "productivity",
       "source": {
@@ -30,7 +30,7 @@
       "homepage": "https://github.com/fingerskier/dude-claude-plugin"
     },
     {
-      "name": "micropython-claude-plugin",
+      "name": "micropython",
       "description": "A plugin to interact with micropython devices within Claude.",
       "category": "productivity",
       "source": {
