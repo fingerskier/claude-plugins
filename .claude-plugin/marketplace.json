@@ -38,6 +38,16 @@
         "url": "https://github.com/fingerskier/micropython-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/micropython-claude-plugin"
+    },
+    {
+      "name": "mozart",
+      "description": "MIDI plugin for Claude Code. Load, analyze, edit, and compose MIDI files with musical intelligence — time-signature and tempo aware navigation, note search, transpose, quantize, and more.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/mozart-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/mozart-claude-plugin"
     }
   ]
 }
