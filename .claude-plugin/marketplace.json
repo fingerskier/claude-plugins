@@ -48,6 +48,22 @@
         "url": "https://github.com/fingerskier/fleet-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/fleet-claude-plugin"
+      "name": "mozart",
+      "description": "MIDI plugin for Claude Code. Load, analyze, edit, and compose MIDI files with musical intelligence — time-signature and tempo aware navigation, note search, transpose, quantize, and more.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/mozart-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/mozart-claude-plugin"
+      "name": "tail",
+      "description": "Run processes in the background and stream their logs back to Claude. Start, stop, restart, and tail output from any command.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/tail-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/tail-claude-plugin"
     }
   ]
 }
