@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "dex-claude-plugin",
+      "name": "dex",
       "description": "Scheduler plugin for Claude Code.",
       "category": "productivity",
       "source": {
@@ -30,7 +30,7 @@
       "homepage": "https://github.com/fingerskier/dude-claude-plugin"
     },
     {
-      "name": "micropython-claude-plugin",
+      "name": "micropython",
       "description": "A plugin to interact with micropython devices within Claude.",
       "category": "productivity",
       "source": {
@@ -38,6 +38,36 @@
         "url": "https://github.com/fingerskier/micropython-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/micropython-claude-plugin"
+    },
+    {
+      "name": "fleet",
+      "description": "AWS services monitor for Claude Code. Monitor and interact with EC2, S3, Lambda, ECS, CloudWatch, and CloudFormation from your Claude session.",
+      "category": "cloud",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/fleet-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/fleet-claude-plugin"
+    },
+    {
+      "name": "mozart",
+      "description": "MIDI plugin for Claude Code. Load, analyze, edit, and compose MIDI files with musical intelligence — time-signature and tempo aware navigation, note search, transpose, quantize, and more.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/mozart-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/mozart-claude-plugin"
+    },
+    {
+      "name": "tail",
+      "description": "Run processes in the background and stream their logs back to Claude. Start, stop, restart, and tail output from any command.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/tail-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/tail-claude-plugin"
     }
   ]
 }
