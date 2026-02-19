@@ -21,7 +21,7 @@
     },
     {
       "name": "dude",
-      "description": "Ultra-minimal RAG and cross-project memory for Claude Code. Persistent issues and specs with semantic vector search, auto-retrieve hooks, and auto-persist hooks.",
+      "description": "Ultra-minimal RAG and cross-project memory. Persistent issues and specs with semantic vector search, auto-retrieve hooks, and auto-persist hooks.",
       "category": "productivity",
       "source": {
         "source": "url",
