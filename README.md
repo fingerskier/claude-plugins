@@ -18,6 +18,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | [fleet](https://github.com/fingerskier/fleet-claude-plugin) | AWS services monitor — EC2, S3, Lambda, ECS, CloudWatch, CloudFormation | `claude plugin install fleet@fingerskier-plugins` |
 | [micropython](https://github.com/fingerskier/micropython-claude-plugin) | Interact with MicroPython devices within Claude | `claude plugin install micropython-claude-plugin@fingerskier-plugins` |
 | [tail](https://github.com/fingerskier/tail-claude-plugin) | Run background processes and stream logs back to Claude | `claude plugin install tail@fingerskier-plugins` |
+| [openscad](https://github.com/fingerskier/openscad-claude-plugin) | OpenSCAD parametric modeling — generate, edit, and inspect 3D models | `claude plugin install openscad@fingerskier-plugins` |
 
 ## Install a plugin
 
