@@ -78,6 +78,26 @@
         "url": "https://github.com/fingerskier/openscad-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/openscad-claude-plugin"
+    },
+    {
+      "name": "skidl",
+      "description": "Design electronic schematics and PCB layouts using SKiDL — create circuits with Python code, validate designs, and export to KiCad.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/skidl-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/skidl-claude-plugin"
+    },
+    {
+      "name": "build123d",
+      "description": "CAD modeling with build123d — create, inspect, and export parametric 3D models using Python.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/build123d-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/build123d-claude-plugin"
     }
   ]
 }
