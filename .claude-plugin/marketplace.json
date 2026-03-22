@@ -98,6 +98,16 @@
         "url": "https://github.com/fingerskier/build123d-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/build123d-claude-plugin"
+    },
+    {
+      "name": "theology",
+      "description": "Exegetical theology research — rigorous, multi-perspective Biblical exegesis with historian, linguist, author, theologian, disciple, shepherd, and full research skills.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/theology-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/theology-claude-plugin"
     }
   ]
 }
