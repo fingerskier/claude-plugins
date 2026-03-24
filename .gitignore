@@ -6,4 +6,4 @@ node_modules/
 *.db
 *.sqlite
 *.sqlite3
-.claude/settings.local.json
+.claude/
