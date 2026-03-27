@@ -20,6 +20,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | [mozart](https://github.com/fingerskier/mozart-claude-plugin) | MIDI plugin — load, analyze, edit, and compose MIDI files | `claude plugin install mozart@fingerskier-plugins` |
 | [openscad](https://github.com/fingerskier/openscad-claude-plugin) | OpenSCAD parametric modeling — generate, edit, and inspect 3D models | `claude plugin install openscad@fingerskier-plugins` |
 | [skidl](https://github.com/fingerskier/skidl-claude-plugin) | Design electronic schematics and PCB layouts using SKiDL | `claude plugin install skidl@fingerskier-plugins` |
+| [spotify](https://github.com/fingerskier/spotify-claude-plugin) | Control Spotify playback — play, pause, skip, search, queue, volume, and more | `claude plugin install spotify@fingerskier-plugins` |
 | [tail](https://github.com/fingerskier/tail-claude-plugin) | Run background processes and stream logs back to Claude | `claude plugin install tail@fingerskier-plugins` |
 | [theology](https://github.com/fingerskier/theology-claude-plugin) | Exegetical theology research — rigorous, multi-perspective Biblical exegesis | `claude plugin install theology@fingerskier-plugins` |
 

@@ -108,6 +108,16 @@
         "url": "https://github.com/fingerskier/theology-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/theology-claude-plugin"
+    },
+    {
+      "name": "spotify",
+      "description": "Control Spotify playback on your devices — play, pause, skip, search, queue, volume, device transfer, recommendations, and more via the Spotify Web API.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/spotify-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/spotify-claude-plugin"
     }
   ]
 }
