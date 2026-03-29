@@ -118,6 +118,16 @@
         "url": "https://github.com/fingerskier/spotify-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/spotify-claude-plugin"
+    },
+    {
+      "name": "song2html",
+      "description": "Read, write, parse, validate, transpose, and render song chord charts — plain-text notation with lyrics, Nashville numbers, and arrangements.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/song2html.git"
+      },
+      "homepage": "https://github.com/fingerskier/song2html"
     }
   ]
 }
