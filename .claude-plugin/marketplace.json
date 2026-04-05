@@ -128,6 +128,16 @@
         "url": "https://github.com/fingerskier/song2html.git"
       },
       "homepage": "https://github.com/fingerskier/song2html"
+    },
+    {
+      "name": "terse",
+      "description": "Ultra-compressed communication mode. Cuts 50-70% of output tokens by eliminating filler, compressing prose to fragments, and reducing explanatory code to minimal form.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/terse-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/terse-claude-plugin"
     }
   ]
 }

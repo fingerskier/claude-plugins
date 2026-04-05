@@ -23,6 +23,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | [spotify](https://github.com/fingerskier/spotify-claude-plugin) | Control Spotify playback — play, pause, skip, search, queue, volume, and more | `claude plugin install spotify@fingerskier-plugins` |
 | [tail](https://github.com/fingerskier/tail-claude-plugin) | Run background processes and stream logs back to Claude | `claude plugin install tail@fingerskier-plugins` |
 | [song2html](https://github.com/fingerskier/song2html) | Read, write, parse, transpose, and render song chord charts | `claude plugin install song2html@fingerskier-plugins` |
+| [terse](https://github.com/fingerskier/terse-claude-plugin) | Ultra-compressed communication — cuts 50-70% of output tokens | `claude plugin install terse@fingerskier-plugins` |
 | [theology](https://github.com/fingerskier/theology-claude-plugin) | Exegetical theology research — rigorous, multi-perspective Biblical exegesis | `claude plugin install theology@fingerskier-plugins` |
 
 ## Install a plugin
