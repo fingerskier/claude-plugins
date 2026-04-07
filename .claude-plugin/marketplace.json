@@ -131,7 +131,7 @@
     },
     {
       "name": "terse",
-      "description": "Ultra-compressed communication mode. Cuts 50-70% of output tokens by eliminating filler, compressing prose to fragments, and reducing explanatory code to minimal form.",
+      "description": "Ultra-compressed caveman-voiced communication mode. Cuts ~70% of output tokens — fragments, no filler, no pleasantries — while keeping full technical accuracy and production-quality deliverable code.",
       "category": "productivity",
       "source": {
         "source": "url",
