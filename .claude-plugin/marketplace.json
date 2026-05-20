@@ -10,6 +10,16 @@
   },
   "plugins": [
     {
+      "name": "amanuensis",
+      "description": "A Claude Code plugin that helps authors draft and edit in their own voice — captures style, expands sketches into prose, and runs targeted review passes.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/claude-amanuensis.git"
+      },
+      "homepage": "https://github.com/fingerskier/claude-amanuensis"
+    },
+    {
       "name": "dex",
       "description": "Scheduler plugin for Claude Code.",
       "category": "productivity",
