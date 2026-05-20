@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "claude-remote-access",
+      "name": "remote-access",
       "description": "Develop on embedded devices over SSH from Claude Code. Read, write, edit, glob, grep, and run bash on a remote host (e.g. armv7l Raspberry Pi) without installing Claude Code on the device.",
       "category": "productivity",
       "source": {
