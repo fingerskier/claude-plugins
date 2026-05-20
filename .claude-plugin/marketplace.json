@@ -10,6 +10,16 @@
   },
   "plugins": [
     {
+      "name": "claude-remote-access",
+      "description": "Develop on embedded devices over SSH from Claude Code. Read, write, edit, glob, grep, and run bash on a remote host (e.g. armv7l Raspberry Pi) without installing Claude Code on the device.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/claude-remote-access.git"
+      },
+      "homepage": "https://github.com/fingerskier/claude-remote-access"
+    },
+    {
       "name": "amanuensis",
       "description": "A Claude Code plugin that helps authors draft and edit in their own voice — captures style, expands sketches into prose, and runs targeted review passes.",
       "category": "productivity",
