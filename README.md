@@ -13,7 +13,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | Plugin | Description | Install |
 |--------|-------------|---------|
 | [build123d](https://github.com/fingerskier/build123d-claude-plugin) | CAD modeling with build123d — create, inspect, and export parametric 3D models using Python | `claude plugin install build123d@fingerskier-plugins` |
-| [claude-remote-access](https://github.com/fingerskier/claude-remote-access) | Develop on remote/embedded devices over SSH — read, write, edit, glob, grep, and bash on an armv7l Pi or any SSH host | `claude plugin install claude-remote-access@fingerskier-plugins` |
+| [remote-access](https://github.com/fingerskier/claude-remote-access) | Develop on remote/embedded devices over SSH — read, write, edit, glob, grep, and bash on an armv7l Pi or any SSH host | `claude plugin install remote-access@fingerskier-plugins` |
 | [dex](https://github.com/fingerskier/dex-claude-plugin) | Scheduler plugin for Claude Code | `claude plugin install dex@fingerskier-plugins` |
 | [dude](https://github.com/fingerskier/dude-claude-plugin) | RAG and cross-project memory with auto-retrieve/persist hooks | `claude plugin install dude@fingerskier-plugins` |
 | [fleet](https://github.com/fingerskier/fleet-claude-plugin) | AWS services monitor — EC2, S3, Lambda, ECS, CloudWatch, CloudFormation | `claude plugin install fleet@fingerskier-plugins` |
