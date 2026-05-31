@@ -158,6 +158,16 @@
         "url": "https://github.com/fingerskier/terse-claude-plugin.git"
       },
       "homepage": "https://github.com/fingerskier/terse-claude-plugin"
+    },
+    {
+      "name": "second-opinion",
+      "description": "Teaches Claude to consult other AI coding CLIs (Gemini, OpenAI Codex, Grok, Aider, Warp, vibe-tools) non-interactively to get an independent second opinion on a question, design, review, or bug, then synthesize their input.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/second-opinion-claude-plugin.git"
+      },
+      "homepage": "https://github.com/fingerskier/second-opinion-claude-plugin"
     }
   ]
 }
