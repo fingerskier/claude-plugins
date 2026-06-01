@@ -81,7 +81,7 @@
     },
     {
       "name": "tail",
-      "description": "Run processes in the background and stream their logs back to Claude. Start, stop, restart, and tail output from any command.",
+      "description": "Run processes in the background and stream their logs back to Claude. Start, stop, restart, tail/filter output, and wait_for a pattern, idle, or exit — with whole-tree cleanup.",
       "category": "productivity",
       "source": {
         "source": "url",

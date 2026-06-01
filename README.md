@@ -22,7 +22,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | [openscad](https://github.com/fingerskier/openscad-claude-plugin) | OpenSCAD parametric modeling — generate, edit, and inspect 3D models | `claude plugin install openscad@fingerskier-plugins` |
 | [skidl](https://github.com/fingerskier/skidl-claude-plugin) | Design electronic schematics and PCB layouts using SKiDL | `claude plugin install skidl@fingerskier-plugins` |
 | [spotify](https://github.com/fingerskier/spotify-claude-plugin) | Control Spotify playback — play, pause, skip, search, queue, volume, and more | `claude plugin install spotify@fingerskier-plugins` |
-| [tail](https://github.com/fingerskier/tail-claude-plugin) | Run background processes and stream logs back to Claude | `claude plugin install tail@fingerskier-plugins` |
+| [tail](https://github.com/fingerskier/tail-claude-plugin) | Run background processes, stream/filter logs, and wait_for patterns/idle/exit — with whole-tree cleanup | `claude plugin install tail@fingerskier-plugins` |
 | [song2html](https://github.com/fingerskier/song2html) | Read, write, parse, transpose, and render song chord charts | `claude plugin install song2html@fingerskier-plugins` |
 | [terse](https://github.com/fingerskier/terse-claude-plugin) | Ultra-compressed communication — cuts 50-70% of output tokens | `claude plugin install terse@fingerskier-plugins` |
 | [theology](https://github.com/fingerskier/theology-claude-plugin) | Exegetical theology research — rigorous, multi-perspective Biblical exegesis | `claude plugin install theology@fingerskier-plugins` |
