@@ -1,0 +1,50 @@
+name: Check README plugin repos
+
+on:
+  push:
+    paths:
+      - 'README.md'
+      - '.github/workflows/check-readme-plugins.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - '.github/workflows/check-readme-plugins.yml'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify each README repo link has a plugin.json
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -uo pipefail
+
+          repos=$(grep -oE 'https://github\.com/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+' README.md | sort -u)
+          if [ -z "$repos" ]; then
+            echo "::error::No GitHub repo links found in README.md"
+            exit 1
+          fi
+
+          fail=0
+          while IFS= read -r url; do
+            slug=${url#https://github.com/}
+            if gh api "repos/$slug/contents/.claude-plugin/plugin.json" >/dev/null 2>&1; then
+              echo "ok    $slug  (.claude-plugin/plugin.json)"
+            elif gh api "repos/$slug/contents/plugin.json" >/dev/null 2>&1; then
+              echo "ok    $slug  (plugin.json)"
+            else
+              echo "::error::$slug is linked in README.md but has no plugin.json (checked .claude-plugin/plugin.json and plugin.json on the default branch)"
+              fail=1
+            fi
+          done <<< "$repos"
+
+          if [ "$fail" -ne 0 ]; then
+            echo "One or more linked repos are missing a plugin.json."
+            exit 1
+          fi
+          echo "All README repo links have a plugin.json."
