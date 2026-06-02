@@ -1,0 +1,39 @@
+name: Validate marketplace.json
+
+on:
+  push:
+    paths:
+      - '.claude-plugin/marketplace.json'
+      - '.github/workflows/validate-marketplace.yml'
+  pull_request:
+    paths:
+      - '.claude-plugin/marketplace.json'
+      - '.github/workflows/validate-marketplace.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # The $schema field in marketplace.json points at
+      # https://anthropic.com/claude-code/marketplace.schema.json, but that URL is
+      # not served (404). The canonical published schema is mirrored on SchemaStore.
+      - name: Download marketplace schema
+        run: |
+          curl -fsSL https://json.schemastore.org/claude-code-marketplace.json -o marketplace.schema.json
+
+      - name: Validate marketplace.json against schema
+        run: |
+          npx -y -p ajv-cli@5 -p ajv-formats@2 ajv validate \
+            -c ajv-formats \
+            -s marketplace.schema.json \
+            -d .claude-plugin/marketplace.json \
+            --strict=false
