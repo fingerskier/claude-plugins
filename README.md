@@ -28,6 +28,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | [terse](https://github.com/fingerskier/terse-claude-plugin) | Ultra-compressed communication — cuts 50-70% of output tokens | `claude plugin install terse@fingerskier-plugins` |
 | [theology](https://github.com/fingerskier/theology-claude-plugin) | Exegetical theology research — rigorous, multi-perspective Biblical exegesis | `claude plugin install theology@fingerskier-plugins` |
 | [second-opinion](https://github.com/fingerskier/second-opinion-claude-plugin) | Consult other AI CLIs (Gemini, Codex, Grok, Aider, Warp, vibe-tools) for an independent second opinion | `claude plugin install second-opinion@fingerskier-plugins` |
+| [claude-agents-core](https://github.com/fingerskier/claude-agents-core) | General-purpose reusable subagents — verification, search, summarization, fact-checking, doc drafting | `claude plugin install claude-agents-core@fingerskier-plugins` |
 
 ## Install a plugin
 

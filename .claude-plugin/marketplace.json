@@ -186,6 +186,17 @@
         "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/second-opinion-claude-plugin"
+    },
+    {
+      "name": "claude-agents-core",
+      "description": "A pack of general-purpose, reusable subagents — independent verification, search, summarization, fact-checking, and doc drafting — with tight tool gating and sensible model selection.",
+      "category": "dev-tools",
+      "source": {
+        "source": "github",
+        "repo": "fingerskier/claude-agents-core",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/fingerskier/claude-agents-core"
     }
   ]
 }
