@@ -3,7 +3,9 @@
   "name": "fingerskier-plugins",
   "description": "Claude Code plugins by Fingerskier",
   "owner": {
-    "name": "Fingerskier"
+    "name": "Fingerskier",
+    "email": "fingerskier@gmail.com",
+    "url": "https://fingerskier.github.io"
   },
   "metadata": {
     "description": "Claude Code plugins by Fingerskier"
@@ -12,50 +14,55 @@
     {
       "name": "remote-access",
       "description": "Develop on embedded devices over SSH from Claude Code. Read, write, edit, glob, grep, and run bash on a remote host (e.g. armv7l Raspberry Pi) without installing Claude Code on the device.",
-      "category": "productivity",
+      "category": "embedded",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/claude-remote-access.git"
+        "source": "github",
+        "repo": "fingerskier/claude-remote-access",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/claude-remote-access"
     },
     {
       "name": "amanuensis",
       "description": "A Claude Code plugin that helps authors draft and edit in their own voice — captures style, expands sketches into prose, and runs targeted review passes.",
-      "category": "productivity",
+      "category": "writing",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/claude-amanuensis.git"
+        "source": "github",
+        "repo": "fingerskier/claude-amanuensis",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/claude-amanuensis"
     },
     {
       "name": "dex",
       "description": "Scheduler plugin for Claude Code.",
-      "category": "productivity",
+      "category": "dev-tools",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/dex-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/dex-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/dex-claude-plugin"
     },
     {
       "name": "dude",
       "description": "Ultra-minimal RAG and cross-project memory. Persistent issues and specs with semantic vector search, auto-retrieve hooks, and auto-persist hooks.",
-      "category": "productivity",
+      "category": "memory",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/dude-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/dude-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/dude-claude-plugin"
     },
     {
       "name": "micropython",
       "description": "A plugin to interact with micropython devices within Claude.",
-      "category": "productivity",
+      "category": "embedded",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/micropython-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/micropython-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/micropython-claude-plugin"
     },
@@ -64,108 +71,119 @@
       "description": "AWS services monitor for Claude Code. Monitor and interact with EC2, S3, Lambda, ECS, CloudWatch, and CloudFormation from your Claude session.",
       "category": "cloud",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/fleet-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/fleet-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/fleet-claude-plugin"
     },
     {
       "name": "mozart",
       "description": "MIDI plugin for Claude Code. Load, analyze, edit, and compose MIDI files with musical intelligence — time-signature and tempo aware navigation, note search, transpose, quantize, and more.",
-      "category": "productivity",
+      "category": "music",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/mozart-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/mozart-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/mozart-claude-plugin"
     },
     {
       "name": "tail",
       "description": "Run processes in the background and stream their logs back to Claude. Start, stop, restart, tail/filter output, and wait_for a pattern, idle, or exit — with whole-tree cleanup.",
-      "category": "productivity",
+      "category": "dev-tools",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/tail-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/tail-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/tail-claude-plugin"
     },
     {
       "name": "openscad",
       "description": "OpenSCAD parametric modeling — generate, edit, and visually inspect 3D models with Claude.",
-      "category": "productivity",
+      "category": "cad",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/openscad-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/openscad-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/openscad-claude-plugin"
     },
     {
       "name": "skidl",
       "description": "Design electronic schematics and PCB layouts using SKiDL — create circuits with Python code, validate designs, and export to KiCad.",
-      "category": "productivity",
+      "category": "cad",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/skidl-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/skidl-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/skidl-claude-plugin"
     },
     {
       "name": "build123d",
       "description": "CAD modeling with build123d — create, inspect, and export parametric 3D models using Python.",
-      "category": "productivity",
+      "category": "cad",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/build123d-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/build123d-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/build123d-claude-plugin"
     },
     {
       "name": "theology",
       "description": "Exegetical theology research — rigorous, multi-perspective Biblical exegesis with historian, linguist, author, theologian, disciple, shepherd, and full research skills.",
-      "category": "productivity",
+      "category": "research",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/theology-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/theology-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/theology-claude-plugin"
     },
     {
       "name": "spotify",
       "description": "Control Spotify playback on your devices — play, pause, skip, search, queue, volume, device transfer, recommendations, and more via the Spotify Web API.",
-      "category": "productivity",
+      "category": "audio",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/spotify-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/spotify-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/spotify-claude-plugin"
     },
     {
       "name": "song2html",
       "description": "Read, write, parse, validate, transpose, and render song chord charts — plain-text notation with lyrics, Nashville numbers, and arrangements.",
-      "category": "productivity",
+      "category": "music",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/song2html.git"
+        "source": "github",
+        "repo": "fingerskier/song2html",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/song2html"
     },
     {
       "name": "terse",
       "description": "Ultra-compressed caveman-voiced communication mode. Cuts ~70% of output tokens — fragments, no filler, no pleasantries — while keeping full technical accuracy and production-quality deliverable code.",
-      "category": "productivity",
+      "category": "comms-style",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/terse-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/terse-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/terse-claude-plugin"
     },
     {
       "name": "second-opinion",
       "description": "Teaches Claude to consult other AI coding CLIs (Gemini, OpenAI Codex, Grok, Aider, Warp, vibe-tools) non-interactively to get an independent second opinion on a question, design, review, or bug, then synthesize their input.",
-      "category": "productivity",
+      "category": "dev-tools",
       "source": {
-        "source": "url",
-        "url": "https://github.com/fingerskier/second-opinion-claude-plugin.git"
+        "source": "github",
+        "repo": "fingerskier/second-opinion-claude-plugin",
+        "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/second-opinion-claude-plugin"
     }
