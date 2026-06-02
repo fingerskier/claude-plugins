@@ -197,6 +197,17 @@
         "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/claude-agents-core"
+    },
+    {
+      "name": "research-agents",
+      "description": "Subagents for literature research — search PubMed, format citations, and synthesize a verified corpus into prose. Zero-install: uses public APIs, no bundled servers.",
+      "category": "research",
+      "source": {
+        "source": "github",
+        "repo": "fingerskier/research-agents",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/fingerskier/research-agents"
     }
   ]
 }
