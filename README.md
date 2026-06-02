@@ -12,6 +12,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
+| [amanuensis](https://github.com/fingerskier/claude-amanuensis) | Helps authors draft and edit in their own voice — captures style, expands sketches into prose, runs targeted review passes | `claude plugin install amanuensis@fingerskier-plugins` |
 | [build123d](https://github.com/fingerskier/build123d-claude-plugin) | CAD modeling with build123d — create, inspect, and export parametric 3D models using Python | `claude plugin install build123d@fingerskier-plugins` |
 | [remote-access](https://github.com/fingerskier/claude-remote-access) | Develop on remote/embedded devices over SSH — read, write, edit, glob, grep, and bash on an armv7l Pi or any SSH host | `claude plugin install remote-access@fingerskier-plugins` |
 | [dex](https://github.com/fingerskier/dex-claude-plugin) | Scheduler plugin for Claude Code | `claude plugin install dex@fingerskier-plugins` |
