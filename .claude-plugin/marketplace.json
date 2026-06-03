@@ -208,6 +208,17 @@
         "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/research-agents"
+    },
+    {
+      "name": "introspector",
+      "description": "Build a mindmap and guided tour of a repo or document set. Scans code or prose, then produces a Mermaid mindmap of concepts/modules and a guided reading tour.",
+      "category": "dev-tools",
+      "source": {
+        "source": "github",
+        "repo": "fingerskier/introspector",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/fingerskier/introspector"
     }
   ]
 }
