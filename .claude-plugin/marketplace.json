@@ -214,8 +214,8 @@
       "description": "Build a mindmap and guided tour of a repo or document set. Scans code or prose, then produces a Mermaid mindmap of concepts/modules and a guided reading tour.",
       "category": "dev-tools",
       "source": {
-        "source": "git",
-        "url": "https://github.com/fingerskier/introspector.git",
+        "source": "github",
+        "repo": "fingerskier/introspector",
         "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/introspector"
