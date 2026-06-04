@@ -30,6 +30,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | [second-opinion](https://github.com/fingerskier/second-opinion-claude-plugin) | Consult other AI CLIs (Gemini, Codex, Grok, Aider, Warp, vibe-tools) for an independent second opinion | `claude plugin install second-opinion@fingerskier-plugins` |
 | [claude-agents-core](https://github.com/fingerskier/claude-agents-core) | General-purpose reusable subagents — verification, search, summarization, fact-checking, doc drafting | `claude plugin install claude-agents-core@fingerskier-plugins` |
 | [research-agents](https://github.com/fingerskier/research-agents) | Literature-research subagents — PubMed search, citation formatting, synthesis | `claude plugin install research-agents@fingerskier-plugins` |
+| [introspector](https://github.com/fingerskier/introspector) | Build a mindmap and guided tour of a repo or document set — Mermaid diagram of concepts/modules plus an ordered reading tour | `claude plugin install introspector@fingerskier-plugins` |
 
 ## Install a plugin
 
