@@ -219,6 +219,17 @@
         "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/introspector"
+    },
+    {
+      "name": "council",
+      "description": "Convene a council of personality seats and put them to work — an interactive meeting or an autonomous work session — while a chair routes the seats and synthesizes a single answer.",
+      "category": "dev-tools",
+      "source": {
+        "source": "github",
+        "repo": "fingerskier/council-claude-plugin",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/fingerskier/council-claude-plugin"
     }
   ]
 }
