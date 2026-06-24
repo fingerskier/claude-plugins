@@ -221,6 +221,17 @@
       "homepage": "https://github.com/fingerskier/introspector"
     },
     {
+      "name": "kicad_buddy",
+      "description": "KiCad MCP service — wraps KiCad's IPC API and kicad-cli to expose MCP tools, resources, and prompts for manufacturing outputs (BOM, netlist, Gerbers), DRC/ERC, 2D plots, 3D models, footprints, and symbols.",
+      "category": "cad",
+      "source": {
+        "source": "github",
+        "repo": "fingerskier/kicad_buddy",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/fingerskier/kicad_buddy"
+    },
+    {
       "name": "council",
       "description": "Convene a council of personality seats and put them to work — an interactive meeting or an autonomous work session — while a chair routes the seats and synthesizes a single answer.",
       "category": "dev-tools",
