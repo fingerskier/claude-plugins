@@ -8,6 +8,17 @@ A plugin marketplace for [Claude Code](https://docs.anthropic.com/en/docs/claude
 claude plugin marketplace add fingerskier/claude-plugins
 ```
 
+## Use with Codex
+
+This repo doubles as a Codex plugin marketplace. Codex reads
+`.agents/plugins/marketplace.json`, which lists the Codex-compatible plugins
+(currently `council`):
+
+```bash
+codex plugin marketplace add fingerskier/claude-plugins
+codex plugin install council@fingerskier-plugins
+```
+
 ## Available plugins
 
 | Plugin | Description | Install |

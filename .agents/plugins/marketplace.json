@@ -1,0 +1,20 @@
+{
+  "name": "fingerskier-plugins",
+  "interface": {
+    "displayName": "Fingerskier Plugins"
+  },
+  "plugins": [
+    {
+      "name": "council",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/fingerskier/council-claude-plugin.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
