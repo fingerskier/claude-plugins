@@ -30,6 +30,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | [second-opinion](https://github.com/fingerskier/second-opinion-claude-plugin) | Consult other AI CLIs (Gemini, Codex, Grok, Aider, Warp, vibe-tools) for an independent second opinion | `claude plugin install second-opinion@fingerskier-plugins` |
 | [claude-agents-core](https://github.com/fingerskier/claude-agents-core) | General-purpose reusable subagents — verification, search, summarization, fact-checking, doc drafting | `claude plugin install claude-agents-core@fingerskier-plugins` |
 | [research-agents](https://github.com/fingerskier/research-agents) | Literature-research subagents — PubMed search, citation formatting, synthesis | `claude plugin install research-agents@fingerskier-plugins` |
+| [council](https://github.com/fingerskier/council-claude-plugin) | Convene a council of personality seats — an interactive meeting or autonomous work session — while a chair routes and synthesizes. Dual-hosted for Claude Code and Codex | `claude plugin install council@fingerskier-plugins` |
 
 ## Install a plugin
 

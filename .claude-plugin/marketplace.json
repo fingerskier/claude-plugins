@@ -233,7 +233,7 @@
     },
     {
       "name": "council",
-      "description": "Convene a council of personality seats and put them to work — an interactive meeting or an autonomous work session — while a chair routes the seats and synthesizes a single answer.",
+      "description": "Convene a council of personality seats and put them to work — an interactive meeting or an autonomous work session — while a chair routes the seats and synthesizes a single answer. Dual-hosted for Claude Code and Codex.",
       "category": "dev-tools",
       "source": {
         "source": "github",
