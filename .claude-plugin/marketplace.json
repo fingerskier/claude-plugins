@@ -233,7 +233,7 @@
     },
     {
       "name": "mooer-ge150",
-      "description": "Control the Mooer GE150 Pro Li guitar effects pedal over USB — manage all 200 preset slots, tweak effect parameters in real time, backup/restore presets, and upload impulse responses.",
+      "description": "Control a MOOER GE150 Max guitar effects pedal over USB \u2014 read and write all 200 presets, edit effect modules live, backup/restore, CTRL and system settings, global EQ, and user cab uploads. Reverse-engineered wire protocol, hardware-verified.",
       "category": "music",
       "source": {
         "source": "github",
@@ -252,17 +252,6 @@
         "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/council-ai-plugin"
-    },
-    {
-      "name": "mooer-ge150",
-      "description": "Control a MOOER GE150 Max guitar effects pedal over USB \u2014 read and write all 200 presets, edit effect modules live, backup/restore, CTRL and system settings, global EQ, and user cab uploads. Reverse-engineered wire protocol, hardware-verified.",
-      "category": "music",
-      "source": {
-        "source": "github",
-        "repo": "fingerskier/Mooer_GE150_Pro_Li-IO",
-        "ref": "main"
-      },
-      "homepage": "https://github.com/fingerskier/Mooer_GE150_Pro_Li-IO"
     }
   ]
 }
