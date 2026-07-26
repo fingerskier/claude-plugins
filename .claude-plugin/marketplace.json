@@ -24,7 +24,7 @@
     },
     {
       "name": "amanuensis",
-      "description": "A Claude Code plugin that helps authors draft and edit in their own voice — captures style, expands sketches into prose, and runs targeted review passes.",
+      "description": "A Claude Code plugin that helps authors draft and edit in their own voice \u2014 captures style, expands sketches into prose, and runs targeted review passes.",
       "category": "writing",
       "source": {
         "source": "github",
@@ -79,7 +79,7 @@
     },
     {
       "name": "mozart",
-      "description": "MIDI plugin for Claude Code. Load, analyze, edit, and compose MIDI files with musical intelligence — time-signature and tempo aware navigation, note search, transpose, quantize, and more.",
+      "description": "MIDI plugin for Claude Code. Load, analyze, edit, and compose MIDI files with musical intelligence \u2014 time-signature and tempo aware navigation, note search, transpose, quantize, and more.",
       "category": "music",
       "source": {
         "source": "github",
@@ -90,7 +90,7 @@
     },
     {
       "name": "tail",
-      "description": "Run processes in the background and stream their logs back to Claude. Start, stop, restart, tail/filter output, and wait_for a pattern, idle, or exit — with whole-tree cleanup.",
+      "description": "Run processes in the background and stream their logs back to Claude. Start, stop, restart, tail/filter output, and wait_for a pattern, idle, or exit \u2014 with whole-tree cleanup.",
       "category": "dev-tools",
       "source": {
         "source": "github",
@@ -101,7 +101,7 @@
     },
     {
       "name": "openscad",
-      "description": "OpenSCAD parametric modeling — generate, edit, and visually inspect 3D models with Claude.",
+      "description": "OpenSCAD parametric modeling \u2014 generate, edit, and visually inspect 3D models with Claude.",
       "category": "cad",
       "source": {
         "source": "github",
@@ -112,7 +112,7 @@
     },
     {
       "name": "skidl",
-      "description": "Design electronic schematics and PCB layouts using SKiDL — create circuits with Python code, validate designs, and export to KiCad.",
+      "description": "Design electronic schematics and PCB layouts using SKiDL \u2014 create circuits with Python code, validate designs, and export to KiCad.",
       "category": "cad",
       "source": {
         "source": "github",
@@ -123,7 +123,7 @@
     },
     {
       "name": "build123d",
-      "description": "CAD modeling with build123d — create, inspect, and export parametric 3D models using Python.",
+      "description": "CAD modeling with build123d \u2014 create, inspect, and export parametric 3D models using Python.",
       "category": "cad",
       "source": {
         "source": "github",
@@ -134,7 +134,7 @@
     },
     {
       "name": "theology",
-      "description": "Exegetical theology research — rigorous, multi-perspective Biblical exegesis with historian, linguist, author, theologian, disciple, shepherd, and full research skills.",
+      "description": "Exegetical theology research \u2014 rigorous, multi-perspective Biblical exegesis with historian, linguist, author, theologian, disciple, shepherd, and full research skills.",
       "category": "research",
       "source": {
         "source": "github",
@@ -145,7 +145,7 @@
     },
     {
       "name": "spotify",
-      "description": "Control Spotify playback on your devices — play, pause, skip, search, queue, volume, device transfer, recommendations, and more via the Spotify Web API.",
+      "description": "Control Spotify playback on your devices \u2014 play, pause, skip, search, queue, volume, device transfer, recommendations, and more via the Spotify Web API.",
       "category": "audio",
       "source": {
         "source": "github",
@@ -156,7 +156,7 @@
     },
     {
       "name": "song2html",
-      "description": "Read, write, parse, validate, transpose, and render song chord charts — plain-text notation with lyrics, Nashville numbers, and arrangements.",
+      "description": "Read, write, parse, validate, transpose, and render song chord charts \u2014 plain-text notation with lyrics, Nashville numbers, and arrangements.",
       "category": "music",
       "source": {
         "source": "github",
@@ -167,7 +167,7 @@
     },
     {
       "name": "terse",
-      "description": "Ultra-compressed caveman-voiced communication mode. Cuts ~70% of output tokens — fragments, no filler, no pleasantries — while keeping full technical accuracy and production-quality deliverable code.",
+      "description": "Ultra-compressed caveman-voiced communication mode. Cuts ~70% of output tokens \u2014 fragments, no filler, no pleasantries \u2014 while keeping full technical accuracy and production-quality deliverable code.",
       "category": "comms-style",
       "source": {
         "source": "github",
@@ -189,7 +189,7 @@
     },
     {
       "name": "claude-agents-core",
-      "description": "A pack of general-purpose, reusable subagents — independent verification, search, summarization, fact-checking, and doc drafting — with tight tool gating and sensible model selection.",
+      "description": "A pack of general-purpose, reusable subagents \u2014 independent verification, search, summarization, fact-checking, and doc drafting \u2014 with tight tool gating and sensible model selection.",
       "category": "dev-tools",
       "source": {
         "source": "github",
@@ -200,7 +200,7 @@
     },
     {
       "name": "research-agents",
-      "description": "Subagents for literature research — search PubMed, format citations, and synthesize a verified corpus into prose. Zero-install: uses public APIs, no bundled servers.",
+      "description": "Subagents for literature research \u2014 search PubMed, format citations, and synthesize a verified corpus into prose. Zero-install: uses public APIs, no bundled servers.",
       "category": "research",
       "source": {
         "source": "github",
@@ -222,7 +222,7 @@
     },
     {
       "name": "kicad_buddy",
-      "description": "KiCad MCP service — wraps KiCad's IPC API and kicad-cli to expose MCP tools, resources, and prompts for manufacturing outputs (BOM, netlist, Gerbers), DRC/ERC, 2D plots, 3D models, footprints, and symbols.",
+      "description": "KiCad MCP service \u2014 wraps KiCad's IPC API and kicad-cli to expose MCP tools, resources, and prompts for manufacturing outputs (BOM, netlist, Gerbers), DRC/ERC, 2D plots, 3D models, footprints, and symbols.",
       "category": "cad",
       "source": {
         "source": "github",
@@ -244,14 +244,29 @@
     },
     {
       "name": "council",
-      "description": "Convene a council of personality seats and put them to work — an interactive meeting or an autonomous work session — while a chair routes the seats and synthesizes a single answer. Dual-hosted for Claude Code and Codex.",
+      "description": "Convene a council of personality seats and put them to work \u2014 an interactive meeting or an autonomous work session \u2014 while a chair routes the seats and synthesizes a single answer. Dual-hosted for Claude Code and Codex.",
       "category": "dev-tools",
       "source": {
         "source": "github",
         "repo": "fingerskier/council-ai-plugin",
         "ref": "main"
       },
+<<<<<<< HEAD
       "homepage": "https://github.com/fingerskier/council-ai-plugin"
+=======
+      "homepage": "https://github.com/fingerskier/council-claude-plugin"
+    },
+    {
+      "name": "mooer-ge150",
+      "description": "Control a MOOER GE150 Max guitar effects pedal over USB \u2014 read and write all 200 presets, edit effect modules live, backup/restore, CTRL and system settings, global EQ, and user cab uploads. Reverse-engineered wire protocol, hardware-verified.",
+      "category": "music",
+      "source": {
+        "source": "github",
+        "repo": "fingerskier/Mooer_GE150_Pro_Li-IO",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/fingerskier/Mooer_GE150_Pro_Li-IO"
+>>>>>>> 418f547 (Add mooer-ge150 plugin (GE150 Max MCP server, v0.2.0))
     }
   ]
 }

@@ -26,6 +26,7 @@ claude plugin marketplace add fingerskier/claude-plugins
 | [spotify](https://github.com/fingerskier/spotify-claude-plugin) | Control Spotify playback — play, pause, skip, search, queue, volume, and more | `claude plugin install spotify@fingerskier-plugins` |
 | [tail](https://github.com/fingerskier/tail-claude-plugin) | Run background processes, stream/filter logs, and wait_for patterns/idle/exit — with whole-tree cleanup | `claude plugin install tail@fingerskier-plugins` |
 | [song2html](https://github.com/fingerskier/song2html) | Read, write, parse, transpose, and render song chord charts | `claude plugin install song2html@fingerskier-plugins` |
+| [mooer-ge150](https://github.com/fingerskier/Mooer_GE150_Pro_Li-IO) | Control a MOOER GE150 Max effects pedal over USB — presets, live edits, backup/restore, uploads | `claude plugin install mooer-ge150@fingerskier-plugins` |
 | [terse](https://github.com/fingerskier/terse-claude-plugin) | Ultra-compressed communication — cuts 50-70% of output tokens | `claude plugin install terse@fingerskier-plugins` |
 | [theology](https://github.com/fingerskier/theology-claude-plugin) | Exegetical theology research — rigorous, multi-perspective Biblical exegesis | `claude plugin install theology@fingerskier-plugins` |
 | [second-opinion](https://github.com/fingerskier/second-opinion-claude-plugin) | Consult other AI CLIs (Gemini, Codex, Grok, Aider, Warp, vibe-tools) for an independent second opinion | `claude plugin install second-opinion@fingerskier-plugins` |
