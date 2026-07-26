@@ -251,10 +251,7 @@
         "repo": "fingerskier/council-ai-plugin",
         "ref": "main"
       },
-<<<<<<< HEAD
       "homepage": "https://github.com/fingerskier/council-ai-plugin"
-=======
-      "homepage": "https://github.com/fingerskier/council-claude-plugin"
     },
     {
       "name": "mooer-ge150",
@@ -266,7 +263,6 @@
         "ref": "main"
       },
       "homepage": "https://github.com/fingerskier/Mooer_GE150_Pro_Li-IO"
->>>>>>> 418f547 (Add mooer-ge150 plugin (GE150 Max MCP server, v0.2.0))
     }
   ]
 }
